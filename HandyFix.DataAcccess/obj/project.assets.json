@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "HandyFix.Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/HandyFix.Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HandyFix.Commons.dll": {}
+        }
+      },
+      "HandyFix.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "HandyFix.Commons": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HandyFix.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HandyFix.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HandyFix.Commons/1.0.0": {
+      "type": "project",
+      "path": "../HandyFix.Commons/HandyFix.Commons.csproj",
+      "msbuildProject": "../HandyFix.Commons/HandyFix.Commons.csproj"
+    },
+    "HandyFix.Models/1.0.0": {
+      "type": "project",
+      "path": "../HandyFix.Models/HandyFix.Models.csproj",
+      "msbuildProject": "../HandyFix.Models/HandyFix.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "HandyFix.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Diana Oganda\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
+      "projectName": "HandyFix.DataAcccess",
+      "projectPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
+      "packagesPath": "C:\\Users\\Diana Oganda\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Diana Oganda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj": {
+              "projectPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
