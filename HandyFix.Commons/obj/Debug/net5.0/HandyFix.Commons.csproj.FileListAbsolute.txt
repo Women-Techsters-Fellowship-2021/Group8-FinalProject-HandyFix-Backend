@@ -1,0 +1,12 @@
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\bin\Debug\net5.0\HandyFix.Commons.deps.json
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\bin\Debug\net5.0\HandyFix.Commons.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\bin\Debug\net5.0\ref\HandyFix.Commons.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\bin\Debug\net5.0\HandyFix.Commons.pdb
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\HandyFix.Commons.csproj.AssemblyReference.cache
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\HandyFix.Commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\HandyFix.Commons.AssemblyInfoInputs.cache
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\HandyFix.Commons.AssemblyInfo.cs
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\HandyFix.Commons.csproj.CoreCompileInputs.cache
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\HandyFix.Commons.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\ref\HandyFix.Commons.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Commons\obj\Debug\net5.0\HandyFix.Commons.pdb

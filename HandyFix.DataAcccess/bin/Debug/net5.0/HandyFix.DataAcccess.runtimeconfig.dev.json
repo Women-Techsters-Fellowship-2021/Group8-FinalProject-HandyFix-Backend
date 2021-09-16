@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Diana Oganda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Diana Oganda\\.nuget\\packages"
+    ]
+  }
+}
