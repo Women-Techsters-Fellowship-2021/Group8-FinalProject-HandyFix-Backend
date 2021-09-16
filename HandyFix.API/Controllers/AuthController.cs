@@ -47,7 +47,7 @@ namespace Handyfix.API.Controllers
             try
             {
                 var result = await _authentication.Register(registerationRequest);
-                //return CreatedAtAction(nameof(GetProduct), new { Id = result.Id }, result);
+            
                 return Created("", result);
             }
             catch(MissingFieldException msex)
