@@ -762,11 +762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFIX.mODELS\\HandyFix.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj",
       "projectName": "HandyFix.Models",
-      "projectPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFIX.mODELS\\HandyFix.Models.csproj",
+      "projectPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj",
       "packagesPath": "C:\\Users\\Diana Oganda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFIX.mODELS\\obj\\",
+      "outputPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diana Oganda\\AppData\\Roaming\\NuGet\\NuGet.Config"

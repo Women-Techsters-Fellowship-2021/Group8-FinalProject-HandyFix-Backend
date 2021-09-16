@@ -35,6 +35,18 @@ namespace HandyFix.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(o =>
+            {
+                o.AddPolicy("ReactPolicy",
+                    builder =>
+                    {
+                        builder.WithOrigins("https://localhost:3000")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials(); 
+
+                    });
+            });
 
             services.AddScoped<IAuthentication, Authentication>();
             services.AddScoped<IUserSystem, UserSystem>();
@@ -42,7 +54,7 @@ namespace HandyFix.API
 
             services.AddDbContext<HandyFixDBContext>(options =>
             {
-                options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]);
+                options.UseSqlServer(Configuration["ConnectionStrings:DbConnection"]);
             });
 
 
@@ -128,7 +140,7 @@ namespace HandyFix.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors();
             app.UseAuthentication();
             app.UseAuthorization();
 
