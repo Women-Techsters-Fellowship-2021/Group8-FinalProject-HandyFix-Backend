@@ -66,6 +66,7 @@ namespace HandyFix.API
             {
                 options.User.RequireUniqueEmail = true;
                 options.Password.RequiredLength = 7;
+                options.User.AllowedUserNameCharacters = null;
             });
 
 

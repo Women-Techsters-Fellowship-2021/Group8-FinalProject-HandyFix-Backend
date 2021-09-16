@@ -20,11 +20,13 @@ namespace HandyFix.DataAcccess
                 {
                     new User
                     {
-                        Email = "JohnJack@gmail.com"
+                        Email = "JohnJack@gmail.com",
+                        UserName = "Jonnie"
                     },
                      new User
                     {
-                        Email = "AnnePaul@gmail.com"
+                        Email = "AnnePaul@gmail.com",
+                        UserName = "Annie"
                     }
                 };
 

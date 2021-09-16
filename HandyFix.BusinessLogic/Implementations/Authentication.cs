@@ -16,7 +16,7 @@ namespace HandyFix.BusinessLogic
 
         public Authentication(UserManager<User> userManager)
         {
-            _userManager = userManager;
+           _userManager = userManager;
            // _tokenGenerator = tokenGenerator;
         }
 
