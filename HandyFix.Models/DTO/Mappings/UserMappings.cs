@@ -20,7 +20,8 @@ namespace HandyFix.Models.DTO.Mappings
         {
             return new User
             {
-                Email = request.Email
+                Email = request.Email,
+                UserName = string.IsNullOrWhiteSpace(request.UserName) ? request.Email : request.UserName,
             };
         }
     }

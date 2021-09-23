@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lMRKo/41XSQGadeG7ive5lXVEFmsP6hG0aUcx6bEOuBUXzNYMXYvkxqT9qgkhf84SfXS9J2DasZykgd/SBJVEA==",
+  "dgSpecHash": "W0YJzEy+/sLtxNmaKJ530I/P2Sd/BJNz0cVT6U01Bt2/GjsXM7NBODJAnmwpf5fIbV10ntnyu0e831D9gogo4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj",
+  "projectFilePath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diana Oganda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.10\\microsoft.aspnetcore.cryptography.internal.5.0.10.nupkg.sha512",
     "C:\\Users\\Diana Oganda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.10\\microsoft.aspnetcore.cryptography.keyderivation.5.0.10.nupkg.sha512",

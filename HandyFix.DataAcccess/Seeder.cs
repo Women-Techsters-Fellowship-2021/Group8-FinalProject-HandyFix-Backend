@@ -10,11 +10,17 @@ namespace HandyFix.DataAcccess
 {
     public class Seeder
     {
-        public async static Task Seed(UserManager<User> userManager, HandyFixDBContext context)
+        public async static Task Seed(RoleManager<IdentityRole> roleManager, UserManager<User> userManager, HandyFixDBContext context)
         {
             await context.Database.EnsureCreatedAsync();
             if (!context.Users.Any())
             {
+                List<string> roles = new List<string> { "Admin", "Regular"};
+
+                foreach (var role in roles)
+                {
+                  await  roleManager.CreateAsync(new IdentityRole { Name = role });
+                }
                
                 List<User> users = new List<User>
                 {
@@ -34,6 +40,15 @@ namespace HandyFix.DataAcccess
                 foreach (var user in users)
                 {
                    await userManager.CreateAsync(user, "P@ssW0rd");
+                   if (user == users[0])
+                    {
+                        await userManager.AddToRoleAsync(user, "Admin");
+                    }
+                    else
+                    {
+                        await userManager.AddToRoleAsync(user, "Admin");
+                        await userManager.AddToRoleAsync(user, "Regular");
+                    }
 
                 }
             }

@@ -16,7 +16,8 @@ using HandyFix.BusinessLogic;
 using HandyFix.DataAcccess;
 using HandyFix.Models;
 using Microsoft.AspNetCore.Identity;
-//using Microsoft.IdentityModel.Tokens;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 
 using System.Text;
@@ -50,7 +51,7 @@ namespace HandyFix.API
 
             services.AddScoped<IAuthentication, Authentication>();
             services.AddScoped<IUserSystem, UserSystem>();
-            //services.AddScoped<ITokenGenerator, TokenGenerator>();
+            services.AddScoped<ITokenGenerator, TokenGenerator>();
 
             services.AddDbContext<HandyFixDBContext>(options =>
             {
@@ -69,9 +70,8 @@ namespace HandyFix.API
                 options.User.AllowedUserNameCharacters = null;
             });
 
-
             services.AddControllers();
-            /* services.AddAuthentication(options =>
+            services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -92,11 +92,12 @@ namespace HandyFix.API
                        ClockSkew = TimeSpan.Zero
                    };
                });
- */
+               
+ 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HandyFix.API", Version = "v1" });
-                /* c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",
                     Type = SecuritySchemeType.ApiKey,
@@ -119,21 +120,21 @@ namespace HandyFix.API
                             new string[] {}
 
                     }
-                }); */
+                }); 
             });
 
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<User> userManager, HandyFixDBContext context)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, RoleManager<IdentityRole> roleManager, UserManager<User> userManager, HandyFixDBContext context)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            Seeder.Seed(userManager, context).Wait();
+            Seeder.Seed(roleManager, userManager, context).Wait();
 
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HandyFix.API v1"));

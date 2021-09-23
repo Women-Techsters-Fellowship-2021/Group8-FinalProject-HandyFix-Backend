@@ -6202,11 +6202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
+      "projectUniqueName": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
       "projectName": "HandyFix.DataAcccess",
-      "projectPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
+      "projectPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
       "packagesPath": "C:\\Users\\Diana Oganda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\obj\\",
+      "outputPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diana Oganda\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6221,8 +6221,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj": {
-              "projectPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj"
+            "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj": {
+              "projectPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Models\\HandyFix.Models.csproj"
             }
           }
         }
