@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OvVXQd0bu6BQD7PXUJk3WIFtN02JF7itBaMOJSSpDjp4tLBFcGqPql95az29HhC0cRENfidXeZgJ852fuQGxrw==",
+  "dgSpecHash": "O71Ge4xcgoUERKn2jIcxxHfzUOH52uFJOYVbLKASNGYoCMTdS0AEJjT1bDmgY3J2JdViZp5eMcVH9zgA8Vyy6g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
+  "projectFilePath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.DataAcccess\\HandyFix.DataAcccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diana Oganda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Diana Oganda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.10\\microsoft.aspnetcore.cryptography.internal.5.0.10.nupkg.sha512",

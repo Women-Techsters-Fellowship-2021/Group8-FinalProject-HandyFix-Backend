@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj": {}
+    "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj": {
+    "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj",
+        "projectUniqueName": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj",
         "projectName": "HandyFix.Commons",
-        "projectPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj",
+        "projectPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\HandyFix.Commons.csproj",
         "packagesPath": "C:\\Users\\Diana Oganda\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\obj\\",
+        "outputPath": "C:\\Users\\Diana Oganda\\Documents\\Group8-FinalProject-HandyFix-Backend\\HandyFix.Commons\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diana Oganda\\AppData\\Roaming\\NuGet\\NuGet.Config"

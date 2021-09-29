@@ -20,6 +20,7 @@ namespace HandyFix.DataAcccess
 
                 return new HandyFixDBContext(optionsBuilder.Options);
         }
-        
+        public DbSet<ResetPassword> ResetPassword { get; set; }
+
     }
 }

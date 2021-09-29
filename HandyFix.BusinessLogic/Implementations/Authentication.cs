@@ -58,5 +58,22 @@ namespace HandyFix.BusinessLogic
 
             throw new MissingFieldException(errors);
         }
+
+        public async Task<ServiceResponse<UserEmailResponse>> GetUserEmail(UserEmailRequest userEmailRequest)
+        {
+            ServiceResponse<UserEmailResponse> serviceResponse = new ServiceResponse<UserEmailResponse>();
+
+            var user = await _userManager.FindByEmailAsync(userEmailRequest.Email);
+            if (user != null)
+            {
+                serviceResponse.Data = UserMappings.GetUserEmail(userEmailRequest);
+                serviceResponse.Message = "User found..";
+                serviceResponse.Success = true;
+                return serviceResponse;
+            }
+            serviceResponse.Message = "An acccount with this email  was not found..";
+            serviceResponse.Success = false;
+            return serviceResponse;
+        }
     }
 }

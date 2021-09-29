@@ -78,3 +78,7 @@ C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.AP
 C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\obj\Debug\net5.0\HandyFix.API.pdb
 C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\obj\Debug\net5.0\HandyFix.API.genruntimeconfig.cache
 C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

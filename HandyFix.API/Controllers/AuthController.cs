@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace Handyfix.API.Controllers
 {
-    [EnableCors("ReactPolicy")]
+    //[EnableCors("ReactPolicy")]
     [ApiController]
     [Route("api/v1/[controller]")]
     public class AuthController : ControllerBase
@@ -41,7 +41,7 @@ namespace Handyfix.API.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterationRequest registerationRequest)
         {
             try
@@ -58,6 +58,26 @@ namespace Handyfix.API.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
+        }
+
+        [HttpGet("GetUserEmail")]
+        public async Task<IActionResult> GetUserEmail([FromQuery] UserEmailRequest userEmailRequest)
+        {
+            try
+            {
+                var user = await _authentication.GetUserEmail(userEmailRequest);
+                if (!(user.Data == null))
+                {
+                    return Ok(user);
+                }
+                return NotFound(user);
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+
         }
     }
 }

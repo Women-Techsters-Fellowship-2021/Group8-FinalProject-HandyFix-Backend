@@ -18,6 +18,7 @@ using HandyFix.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Newtonsoft.Json;
 
 
 using System.Text;
@@ -36,19 +37,18 @@ namespace HandyFix.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(o =>
+            services.AddCors(options =>
             {
-                o.AddPolicy("ReactPolicy",
+                options.AddPolicy("ReactPolicy",
                     builder =>
                     {
-                        builder.WithOrigins("https://localhost:3000")
-                        .AllowAnyMethod()
+                        builder.WithOrigins("http://localhost:3000")
                         .AllowAnyHeader()
+                        .AllowAnyMethod()
                         .AllowCredentials(); 
 
                     });
             });
-
             services.AddScoped<IAuthentication, Authentication>();
             services.AddScoped<IUserSystem, UserSystem>();
             services.AddScoped<ITokenGenerator, TokenGenerator>();
@@ -70,7 +70,7 @@ namespace HandyFix.API
                 options.User.AllowedUserNameCharacters = null;
             });
 
-            services.AddControllers();
+            
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -92,7 +92,12 @@ namespace HandyFix.API
                        ClockSkew = TimeSpan.Zero
                    };
                });
-               
+            services
+        .AddControllers()
+        .AddNewtonsoftJson( options => options.SerializerSettings
+        .ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
+
+            services.AddControllers();   
  
             services.AddSwaggerGen(c =>
             {
@@ -139,10 +144,10 @@ namespace HandyFix.API
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HandyFix.API v1"));
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseCors();
+            app.UseCors("ReactPolicy");
             app.UseAuthentication();
             app.UseAuthorization();
 

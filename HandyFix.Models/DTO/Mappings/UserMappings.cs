@@ -24,5 +24,15 @@ namespace HandyFix.Models.DTO.Mappings
                 UserName = string.IsNullOrWhiteSpace(request.UserName) ? request.Email : request.UserName,
             };
         }
+
+        public static UserEmailResponse GetUserEmail(UserEmailRequest userEmailRequest)
+        {
+            return new UserEmailResponse
+            {
+                Email = userEmailRequest.Email
+            };
+
+        } 
     }
 }
+ 
