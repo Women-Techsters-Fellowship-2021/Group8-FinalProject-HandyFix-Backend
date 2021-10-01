@@ -4,14 +4,16 @@ using HandyFix.DataAcccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HandyFix.DataAcccess.Migrations
 {
     [DbContext(typeof(HandyFixDBContext))]
-    partial class HandyFixDBContextModelSnapshot : ModelSnapshot
+    [Migration("20211001125432_newmigrations")]
+    partial class newmigrations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

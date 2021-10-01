@@ -82,3 +82,7 @@ C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.AP
 C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\MailKit.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\NETCore.MailKit.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.API\bin\Debug\net5.0\BouncyCastle.Crypto.dll

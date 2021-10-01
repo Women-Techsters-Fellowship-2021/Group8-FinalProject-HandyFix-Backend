@@ -22,5 +22,7 @@ namespace HandyFix.DataAcccess
         }
         public DbSet<ResetPassword> ResetPassword { get; set; }
 
+       
+
     }
 }

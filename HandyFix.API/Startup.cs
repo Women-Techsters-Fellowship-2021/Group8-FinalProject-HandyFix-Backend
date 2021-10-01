@@ -49,6 +49,9 @@ namespace HandyFix.API
 
                     });
             });
+            services.Configure<EmailSettings>(Configuration.GetSection("EmailSettings"));
+            services.AddTransient<IMailService, MailService>();
+
             services.AddScoped<IAuthentication, Authentication>();
             services.AddScoped<IUserSystem, UserSystem>();
             services.AddScoped<ITokenGenerator, TokenGenerator>();
