@@ -1,0 +1,15 @@
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.csproj.AssemblyReference.cache
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.AssemblyInfoInputs.cache
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.AssemblyInfo.cs
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.csproj.CoreCompileInputs.cache
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\bin\Debug\net5.0\HandyFix.Models.deps.json
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\bin\Debug\net5.0\HandyFix.Models.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\bin\Debug\net5.0\ref\HandyFix.Models.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\bin\Debug\net5.0\HandyFix.Models.pdb
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\bin\Debug\net5.0\HandyFix.Commons.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\bin\Debug\net5.0\HandyFix.Commons.pdb
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.csproj.CopyComplete
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\ref\HandyFix.Models.dll
+C:\Users\Diana Oganda\Documents\Group8-FinalProject-HandyFix-Backend\HandyFix.Models\obj\Debug\net5.0\HandyFix.Models.pdb
